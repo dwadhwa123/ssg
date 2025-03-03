@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/assets/background.svg');
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #astroLogo {
+    max-width: 100px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    color: black;
+  }
+  
+  .place {
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .place h2 {
+    font-size: 2.5em;
+  }
+  
+  .place p {
+    font-size: 1.75em;
+  }
+
+  .place h3 {
+    font-size: 1.4em; 
+  }
+
+  .place ul li {
+    font-size: 1.2em; 
+  }
+  
+  .place ul {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+  
+  .place img {
+    width: 50%;
+    border-radius: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .flag{
+    width: 5% !important;
+  }

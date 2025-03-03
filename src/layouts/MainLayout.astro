@@ -1,0 +1,23 @@
+---
+import Header from '../components/Header.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog of the Best Places I Have Been To</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <Header />
+  <main>
+    <slot />
+  </main>
+
+  <footer>
+    <p>Made by Dhruv Wadhwa</p>
+  </footer>
+</body>
+</html>
