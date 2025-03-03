@@ -1,10 +1,10 @@
 ---
-const { name, description, bestAttractions, image, flag } = Astro.props;
+const { name, description, bestAttractions, image, image2, flag } = Astro.props;
 ---
 
 <div class="place">
   <h2>
-    {name} <img src={flag} alt={`Flag of ${name}`} class="flag" /> 
+    {name}<img src={flag} alt={`Flag of ${name}`} class="flag" /> 
   </h2>
   <p>{description}</p>
   <h3>Best Attractions:</h3>
@@ -14,4 +14,5 @@ const { name, description, bestAttractions, image, flag } = Astro.props;
     ))}
   </ul>
   <img src={image} alt={name} />
+  <img src={image2} alt={name} />
 </div>

@@ -5,37 +5,52 @@ import PlaceCard from '../components/PlaceCard.astro';
 const places = [
   {
     name: "Paris",
-    description: "Paris is the capital of France, known for its iconic landmarks such as the Eiffel Tower, Notre-Dame Cathedral, and world-class museums like the Louvre.",
-    bestAttractions: ["Eiffel Tower", "Louvre Museum", "Notre-Dame Cathedral"],
+    description: "Paris, the capital of France, is a global hub of art, and culture, offering a blend of historic charm and modern elegance.",
+    bestAttractions: ["Eiffel Tower - Most visited monument in the world where you can visit different levels, dine, and take in the views", 
+    "Louvre Museum - Museum containing the Mona Lisa and many other art works from different time periods", 
+    "Notre-Dame Cathedral - Gothic style medieval Catholic Cathedral where you can view the beautiful architecture, art, and attend masses"],
     image: "/images/paris.jpg",
+    image2: "/images/paris2.jpeg",
     flag: "/images/france_flag.jpg" 
   },
   {
     name: "Tokyo",
     description: "Tokyo is Japan's bustling capital, blending traditional shrines and temples with modern skyscrapers, shopping districts, and entertainment hubs.",
-    bestAttractions: ["Shibuya Crossing", "Tokyo Tower", "Sensō-ji Temple"],
+    bestAttractions: ["Shibuya Crossing - World's busiest pedestrian crossing, popular for watching and taking photos", 
+    "Tokyo Tower - Active broadcasting facility where you can climb to the top for views and experience the tower at night", 
+    "Mount Fuji - Japan's tallest mountain which is also a national symbol and perfect for hiking and camping"],
     image: "/images/tokyo.jpg",
+    image2: "/images/japan2.jpg",
     flag: "/images/japan_flag.png" 
   },
   {
     name: "Switzerland",
     description: "Switzerland is a landlocked country in Central Europe, known for its natural beauty, history, and culture.",
-    bestAttractions: ["Matterhorn", "JungFraujoch", "Grindelwald"],
+    bestAttractions: ["Matterhorn - Snowy Mountain in Switzerland, known for its tough climbing routes", 
+    "JungFraujoch - Famous mountain in the Burmese Alps, known for stunning views and hiking", 
+    "Grindelwald - Village in the Swiss Alps where you can ski and hike while enjoying the scenery"],
     image: "/images/switzerland.jpg",
+    image2: "/images/switzerland2.jpeg",
     flag: "/images/switzerland_flag.png"  
   },
   {
     name: "Dubai",
     description: "Dubai is a city in the United Arab Emirates that's a global trading hub, a financial center, and a popular tourist destination. It's known for its skyscrapers, beaches, and ports.",
-    bestAttractions: ["Burj Khalifa", "Museum of the Future", "Jumeriah Mosque"],
+    bestAttractions: ["Burj Khalifa - Tallest building in the world offering breaktaking views of the city", 
+    "Museum of the Future - Museum that showcases innovative and futuristic technology giving a glimpse into tomorrow's world", 
+    "Jumeriah Mosque - Historic Islamic architecture that is one of the most popular tourist attractions in Dubai"],
     image: "/images/dubai.webp",
+    image2: "/images/dubai2.jpeg",
     flag: "/images/uae_flag.png"  
   },
   {
     name: "Italy",
     description: "Italy is a boot-shaped country in Southern Europe, known for its rich history, art, culture, and cuisine, featuring a peninsula jutting into the Mediterranean Sea.",
-    bestAttractions: ["Colosseum", "Pantheon", "St. Peters Basilica"],
+    bestAttractions: ["Colosseum - Ancient amphitheater that is known for its gladiator battles and Roman architecture", 
+    "Pantheon - Ancient temple known for its dome and architecture design, now serves as a church ", 
+    "St. Peters Basilica - Historic church known for its baroque architecture where you can enjoy the beautiful artwork"],
     image: "/images/italy.jpeg",
+    image2: "/images/italy2.webp",
     flag: "/images/italy_flag.png"  
   }
 ];
@@ -49,6 +64,7 @@ const places = [
         description={place.description}
         bestAttractions={place.bestAttractions}
         image={place.image}
+        image2={place.image2}
         flag={place.flag}  
       />
     ))}
